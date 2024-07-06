@@ -12,7 +12,7 @@ Welcome to the VetPro Enterprises project repository. This project is divided in
 
 The project is structured as follows:
 
-```
+
 VetProEnterprises/
 ├── src/
 │   ├── frontend/
@@ -21,7 +21,7 @@ VetProEnterprises/
 │       └── ... (NestJS app)
 ├── package.json
 └── README.md
-```
+
 
 ## Frontend
 
