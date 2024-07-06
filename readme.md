@@ -1,9 +1,9 @@
-Certainly! Here’s a README.md file for the VetPro Enterprises project:
+Certainly! Here’s a README.md file for the VetPro Enterprise project:
 
 ```markdown
-# VetPro Enterprises
+# VetPro Enterprise
 
-Welcome to the VetPro Enterprises project repository. This project is divided into two main parts:
+Welcome to the VetPro Enterprise project repository. This project is divided into two main parts:
 
 - **Frontend**: A React application written in TypeScript.
 - **Backend**: A NestJS application written in TypeScript.
@@ -13,7 +13,7 @@ Welcome to the VetPro Enterprises project repository. This project is divided in
 The project is structured as follows:
 
 
-VetProEnterprises/
+VetProEnterprise/
 ├── src/
 │   ├── frontend/
 │   │   └── ... (React app)
@@ -75,7 +75,7 @@ This will start the NestJS development server and you can access the API at `htt
 
     ```bash
     git clone https://github.com/arunmopare/VetPro-Enterprise.git
-    cd VetProEnterprises
+    cd VetProEnterprise
     ```
 
 2. **Set up the frontend**
@@ -109,7 +109,7 @@ This will start the NestJS development server and you can access the API at `htt
 
 ## Contributing
 
-We welcome contributions to VetPro Enterprises! If you have any ideas, feel free to fork the repository and submit a pull request. You can also open an issue if you find any bugs or have feature requests.
+We welcome contributions to VetPro Enterprise! If you have any ideas, feel free to fork the repository and submit a pull request. You can also open an issue if you find any bugs or have feature requests.
 
 ### Steps to Contribute
 
