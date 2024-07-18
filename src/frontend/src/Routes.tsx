@@ -9,7 +9,7 @@ interface RouteConfig {
 }
 
 const routes: RouteConfig[] = [
-    { path: '/', element: <Home /> },
+    { path: '/', element: <Home />, },
     { path: '/about-us', element: <AboutUs /> },
     { path: '/orders', element: <Orders /> },
     { path: '/create-order', element: <CreateOrder /> },

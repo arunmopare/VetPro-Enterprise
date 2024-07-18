@@ -17,6 +17,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import routes from '../Routes';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import PageHeader from './PageHeader';
 
 const drawerWidth = 240;
 
@@ -54,14 +55,12 @@ export default function ResponsiveDrawer(props: Props) {
             <Divider />
             <List>
                 <ListItem key={"text"} disablePadding>
-                    <Link to="about-us">
-                        <ListItemButton key={"1"}>
-                            <ListItemIcon>
-                                <MailIcon />
-                            </ListItemIcon>
-                            <ListItemText primary={"Home"} />
-                        </ListItemButton>
-                    </Link>
+                    <ListItemButton key={"1"}>
+                        <ListItemIcon>
+                            <MailIcon />
+                        </ListItemIcon>
+                        <ListItemText primary={"Home"} />
+                    </ListItemButton>
                 </ListItem>
                 <ListItem key={"text"} disablePadding>
                     <ListItemButton key={"3"}>
@@ -111,9 +110,7 @@ export default function ResponsiveDrawer(props: Props) {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography variant="h6" noWrap component="div">
-                        Responsive drawer
-                    </Typography>
+                    <PageHeader />
                 </Toolbar>
             </AppBar>
             <Box
